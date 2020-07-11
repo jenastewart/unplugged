@@ -93,20 +93,23 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-flow: row wrap;
 
 }
 
 /* Header styles */
 
 header {
+  padding: 15px 0;
 
 }
 
 header .content-wrapper {
+  margin: 0;
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-flow: column;
+  flex-flow: row wrap;
 
 }
 
@@ -115,46 +118,102 @@ header figure {
 }
 
 .header-divider {
-
+  width: 100%;
 }
 
 header nav {
+  width: 60%;
   display: flex;
   justify-content: space-around;
   align-items: center;
+  flex-flow: row wrap;
+}
 
+
+header a {
+  padding: 20px 0;
+}
+
+/* Body Styles */
+
+.content-wrapper {
+  width: 88%;
 }
 
 /* ------------- Mobile Styles - Homepage ------------*/
 
 .hero-area {
+  padding: 50px 0;
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-flow: row wrap;
 }
-
-aside  .content-wrapper {
+/* Aside */
+aside {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: column;
 }
 
+aside  .content-wrapper {
+  padding: 30px 0 35px 0;
+
+}
+aside .form-description {
+  width: 88%;
+}
+aside .form {
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column; */
+}
+
+/* Features section */
+.features h2 {
+  width: 88%;
+}
+
+.features article {
+  width: 55%;
+}
+
 .features .content-wrapper {
+  padding-top: 39px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
 }
+.features-icon {
+  padding-top: 60px;
+}
+.features p {
+  margin: 0;
+}
+/* Reviews section */
 
 .reviews .content-wrapper {
+  padding-top: 52px;
+  padding-bottom: 48px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
 }
+.reviews .content-wrapper h2 {
 
+    width: 88%;
+}
+.review h3 {
+
+  width: 55%;
+  
+}
 .review {
+  width: 88%;
 
 }
 .review img {
@@ -174,20 +233,24 @@ aside  .content-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-flow: row wrap;
 }
 
 .contact-section {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-flow: row wrap;
 }
 
 /* --------- Mobile Styles - FAQ --------- */
 
 .faq {
+  width: 88%;
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-flow: row wrap;
 }
 
 .faq .content-wrapper {
@@ -196,13 +259,24 @@ aside  .content-wrapper {
   align-items: center;
   flex-flow: row wrap;
 }
-}
+/* .faq h2 {
+  justify-content: flex-start;
+} */
+
 
 
 /* Footer */
 
 footer {
 
+}
+footer .content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  width: 55%;
+  margin: 50px 0;
 }
 
 footer .footer-content {
@@ -213,6 +287,7 @@ footer .footer-content {
 }
 
 footer address {
+  padding: 50px 0;
   display: flex;
   justify-content: center;
   align-items: center; 
@@ -221,6 +296,7 @@ footer address {
 }
 
 footer .social {
+  padding-bottom: 50px;
 
 }
 
@@ -229,6 +305,9 @@ footer .social-icons {
   justify-content: center;
   align-items: center;
 
+}
+footer p {
+  margin: 0;
 }
 
 .copyright  {
