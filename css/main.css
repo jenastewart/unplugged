@@ -87,6 +87,63 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/* General Styles */
+
+html {
+font-size: 16px;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+}
+
+a {
+  color: #e2e3ed;
+  text-decoration: none;
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 3.75em;
+}
+
+h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 2.25em;
+
+}
+
+h3 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.875em;
+}
+
+h4 {
+  font-family: 'Poppins', sans-serif;
+}
+
+p {
+  font-size: 1.125em;
+  line-height: 1.5em;
+}
+
+img {
+
+}
+
+figure {
+
+}
+
+address {
+  font-style: normal;
+
+}
+
+.content-wrapper {
+
+}
    /*------------- Base Header - Footer Styles ---------*/
 header,
 footer {
@@ -140,10 +197,6 @@ header a {
 }
 
 /* Body Styles */
-
-h3 {
-  font-size: 30px;
-}
 
 
 /* ------------- Mobile Styles - Homepage ------------*/
@@ -482,7 +535,6 @@ footer .copyright  {
     .hero-area .content-wrapper {
       width: 100%;
       justify-content: flex-start;
-      
     }
 
     /* Aside Section*/
@@ -651,10 +703,6 @@ footer .copyright  {
 
       /* Header */
   
-      header {
-  
-      }
-  
       header .content-wrapper {
         width: 100%;
       }
@@ -695,7 +743,6 @@ footer .copyright  {
       article .feature {
         flex-basis: 155px;
         padding: 0 50px;
-        
       }
   
       /* Reviews */
@@ -726,28 +773,17 @@ footer .copyright  {
       .faq .faq-content {
         flex-basis: 435px;
       }
-      
   
       /* Footer */
   
       footer .content-wrapper {
-        /* width: 100%; */
         margin: 100px 0;
-  
       }
-  
-      .footer-content {
-  
-      }
+
   
       footer .contact {
         margin-bottom: 0;
       }
-  
-      footer .copyright {
-        width:
-      }
-
 
    }
 
