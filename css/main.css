@@ -440,14 +440,31 @@ footer .contact {
 footer .social {
   display: flex;
   justify-content: center;
-  padding-bottom: 50px;
+  align-items: center;
+  flex-flow: row wrap;
+  padding: 50px 0;
   width: 50%;
 }
 
 footer .social-icons {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
+  flex-flow: row nowrap;
+  width: 100%;
+}
+
+footer .social-icon {
+  display: flex;
+  align-content: center;
+}
+
+footer i {
+  font-size: 1.125em;
+  background-color: #527158;
+  border-radius: 50%;
+  padding: 15px;
+  align-self: center;
 }
 
 footer p {
@@ -747,6 +764,12 @@ footer .copyright  {
  
     footer .social-icons {
       flex-flow: row wrap;
+      justify-content: center;
+    }
+
+    footer .social-icon {
+      margin-left: 5px;
+      margin-right: 5px;
     }
 
    }
@@ -818,10 +841,6 @@ footer .copyright  {
         width: 40%;
         padding: 0 40px;
       }
-
-      /* .review img {
-        max-width: 380px;       
-      } */
 
       /* About Page */
       .about-contact .content-wrapper h2 {
